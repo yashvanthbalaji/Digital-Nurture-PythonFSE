@@ -13,7 +13,7 @@ Bubble Sort repeatedly compares adjacent elements and swaps them if they are in 
 
 ### Output
 
-![Bubble Sort Output](screenshots/bubble-sort-output.png)
+<img width="1444" height="679" alt="image" src="https://github.com/user-attachments/assets/ac2cbd71-1071-4eff-8139-ede5d90b64b0" />
 
 ---
 
@@ -23,7 +23,7 @@ Selection Sort finds the smallest element in the unsorted part of the list and p
 
 ### Output
 
-![Selection Sort Output](screenshots/selection-sort-output.png)
+<img width="1479" height="739" alt="image" src="https://github.com/user-attachments/assets/6df7daaa-0cb6-4ba4-83bc-ba5ee8536b4f" />
 
 ---
 
@@ -33,7 +33,7 @@ Insertion Sort inserts each element into its correct position in the already sor
 
 ### Output
 
-![Insertion Sort Output](screenshots/insertion-sort-output.png)
+<img width="1488" height="721" alt="image" src="https://github.com/user-attachments/assets/b6490fd5-9378-40ae-8fed-62d6f6a8ca99" />
 
 ---
 
@@ -43,7 +43,7 @@ Quick Sort uses a **random pivot** to divide the list into smaller and larger el
 
 ### Output
 
-![Quick Sort Output](screenshots/quick-sort-output.png)
+<img width="1461" height="776" alt="image" src="https://github.com/user-attachments/assets/71fb0f57-7afe-4426-91f1-a0f88510d9c9" />
 
 ---
 
