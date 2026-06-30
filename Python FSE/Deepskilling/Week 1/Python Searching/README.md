@@ -26,10 +26,10 @@ Python Searching Methods
 ## 📸 Output
 
 ### Linear Search
-![Linear Search Output](screenshots/linear-search-output.png)
+<img width="1408" height="845" alt="image" src="https://github.com/user-attachments/assets/f0c28937-0a7c-4e8e-b472-274694dcb497" />
 
 ### Binary Search
-![Binary Search Output](screenshots/binary-search-output.png)
+<img width="1489" height="794" alt="image" src="https://github.com/user-attachments/assets/f5eaac58-fcd6-4a04-9f3c-799f59e2230a" />
 
 ---
 **Developed by BALAJI A**  
