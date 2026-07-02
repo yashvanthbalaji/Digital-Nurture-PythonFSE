@@ -1,10 +1,8 @@
-<p align="center">
-  <h1>🐍 Week 2 — Python Backend Frameworks</h1>
-  <h3>Deepskilling | Cognizant Digital Nurture 5.0</h3>
-  <p><strong>Developed & Submitted By: BALAJI A</strong></p>
-  <p><strong>Email: 333yashvanthbalaji@gmail.com</strong></p>
-  <p><strong>Superset ID: 7995004</strong></p>
-</p>
+# 🗄️ Week 2 — Python Backend Frameworks
+> ### 👨‍💻 **Developed & Submitted By**
+> # **BALAJI A** 
+> ### 📧 **333yashvanthbalaji@gmail.com**
+> ### 📧 **Superset ID: 7995004**
 
 ---
 

@@ -113,16 +113,9 @@ This week strengthened my understanding of **Python programming, Database Integr
 
 ---
 
-# 👨‍💻 **Author**
-
-## **All solutions, implementations, documentation, and outputs in this repository were completed by**
-
-# **BALAJI A**
-
-### 📧 **333yashvanthbalaji@gmail.com**
-### 📧 **Superset ID: 7995004**
-
-
----
-
-⭐ **Thank you for visiting this repository!**
+<p align="center">
+  <strong>All the works, solutions, code, and documentation in this repository were completed by</strong><br>
+  <strong>BALAJI A</strong><br>
+  <strong>Email: 333yashvanthbalaji@gmail.com</strong><br>
+  <strong>Superset ID: 7995004</strong>
+</p>
