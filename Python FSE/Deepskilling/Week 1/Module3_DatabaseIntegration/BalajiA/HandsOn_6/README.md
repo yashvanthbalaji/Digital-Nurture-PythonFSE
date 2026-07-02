@@ -9,6 +9,10 @@ ORM Integration using SQLAlchemy and Django ORM, including Model Definition, Rel
 ## Output
 
 > **Screenshots of the following are attached below:**
+>
+> <img width="1918" height="992" alt="Screenshot 2026-07-02 104212" src="https://github.com/user-attachments/assets/03d15d0a-afa9-4009-8915-3d369b79a3f7" />
+<img width="1907" height="1010" alt="Screenshot 2026-07-02 104054" src="https://github.com/user-attachments/assets/a18571df-8e44-44c7-845c-9cc078fabe5e" />
+
 
 * SQLAlchemy model definitions (`models.py`)
 * Database tables created successfully (`college_db_orm`)
