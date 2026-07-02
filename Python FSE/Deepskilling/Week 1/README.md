@@ -1,60 +1,108 @@
-# Week 1 — Deepskilling | Cognizant Digital Nurture 5.0
+# 📚 Week 1 — Deepskilling | Cognizant Digital Nurture 5.0
 
-**Name:** Balaji A
+> **👨‍💻 Name:** **Balaji A**
 
-## Overview
+---
 
-This repository contains my **Week 1 work**, **answer solutions**, and **learning progress** for **Deepskilling — Cognizant Digital Nurture 5.0**.
+## 📖 Overview
 
-## Folder Structure
+This folder contains my **Week 1** work, **answer solutions**, and **learning progress** for the **Cognizant Digital Nurture 5.0 – Deepskilling Program**.
 
-### 1) `Module3_DatabaseIntegration`
-Contains my database integration hands-on exercises.
+---
 
-**Main work:**
-- `HandsOn_1`
-- `HandsOn_2`
-- `HandsOn_3`
-- `HandsOn_4`
-- `HandsOn_5`
-- `HandsOn_6`
-- `HandsOn_7`
+# 📂 Folder Structure
 
-### 2) `Sorting Methods`
-Contains sorting algorithm practice.
+```
+Week 1
+├── 📁 Module3_DatabaseIntegration
+│   ├── HandsOn_1
+│   ├── HandsOn_2
+│   ├── HandsOn_3
+│   ├── HandsOn_4
+│   ├── HandsOn_5
+│   ├── HandsOn_6
+│   └── HandsOn_7
+│
+├── 📁 Sorting Methods
+│   ├── Bubble Sort
+│   ├── Selection Sort
+│   ├── Insertion Sort
+│   ├── Quick Sort
+│   └── More Sorting Algorithms
+│
+├── 📁 Python Searching
+│   ├── Linear Search
+│   └── Binary Search
+│
+└── 📁 Design Patterns
+    ├── Observer
+    ├── Adapter
+    ├── Factory
+    ├── Singleton
+    └── More Design Patterns
+```
 
-**Topics covered:**
+---
+
+# 💻 Module 3 – Database Integration
+
+**Hands-on Exercises**
+
+- ✅ HandsOn_1
+- ✅ HandsOn_2
+- ✅ HandsOn_3
+- ✅ HandsOn_4
+- ✅ HandsOn_5
+- ✅ HandsOn_6
+- ✅ HandsOn_7
+
+---
+
+# 🔄 Sorting Methods
+
+**Algorithms Covered**
+
 - Bubble Sort
 - Selection Sort
 - Insertion Sort
 - Quick Sort
-- more on...
+- More Sorting Algorithms
 
-### 3) `Python Searching`
-Contains searching algorithm practice.
+---
 
-**Topics covered:**
+# 🔍 Python Searching
+
+**Searching Techniques**
+
 - Linear Search
 - Binary Search
 
-### 4) `Design Patterns`
-Contains my design pattern practice and notes.
+---
 
-**Topics covered:**
-- Observer
-- Adapter
-- Factory
-- Singleton
-- more on...
+# 🏗️ Design Patterns
 
-## Learning Progress
+**Concepts Covered**
 
-During Week 1, I learned:
-- Basic database integration concepts
-- Sorting algorithm logic
-- Searching algorithm logic
-- Core design pattern ideas
+- Observer Pattern
+- Adapter Pattern
+- Factory Pattern
+- Singleton Pattern
+- More Design Patterns
 
-## Summary
+---
 
-This week helped me build a stronger base in Python problem solving, database handling, algorithms, and design patterns.
+# 📈 Learning Progress
+
+Throughout **Week 1**, I learned:
+
+- Database Integration fundamentals
+- Python Sorting Algorithms
+- Searching Algorithms
+- Design Pattern concepts and implementations
+- Problem-solving through hands-on exercises
+
+---
+
+# 🎯 Summary
+
+This week strengthened my understanding of **Python programming, Database Integration, Searching & Sorting Algorithms, and Design Patterns** through practical hands-on implementations as part of the **Cognizant Digital Nurture 5.0 – Deepskilling Program**.
