@@ -2,7 +2,7 @@
 # Hands-On 6 - Task 2 & 3: CRUD Operations + Eager Loading
 # Name   :BALAJI A
 
-# Step 90: N+1 Comparison - document at top of file as instructed
+# Step 90: N+1 Comparison- document at top of file as instructed
 # WITHOUT joinedload (Step 84 - Lazy Loading):
 #   Query 1 : SELECT * FROM enrollments         → fetches all enrollments
 #   Query 2 : SELECT * FROM students WHERE id=1 → for enrollment 1
