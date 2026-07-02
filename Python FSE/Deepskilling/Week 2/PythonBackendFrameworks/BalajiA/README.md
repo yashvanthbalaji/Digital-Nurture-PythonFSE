@@ -1,8 +1,9 @@
 # 🗄️ Week 2 — Python Backend Frameworks
-> ### 👨‍💻 **Developed & Submitted By**
-> # **BALAJI A** 
-> ### 📧 **333yashvanthbalaji@gmail.com**
-> ### 📧 **Superset ID: 7995004**
+
+> **👨‍💻 Developed & Submitted By**  
+> **BALAJI A**  
+> **📧 333yashvanthbalaji@gmail.com**  
+> **📧 Superset ID: 7995004**
 
 ---
 
@@ -80,6 +81,6 @@ This week strengthened my understanding of **backend development frameworks and 
 <p align="center">
   <strong>All the works, solutions, code, and documentation in this repository were completed by</strong><br>
   <strong>BALAJI A</strong><br>
-  <strong>Email: 333yashvanthbalaji@gmail.com</strong><br>
-  <strong>Superset ID: 7995004</strong>
+  <strong>📧 333yashvanthbalaji@gmail.com</strong><br>
+  <strong>📧 Superset ID: 7995004</strong>
 </p>
