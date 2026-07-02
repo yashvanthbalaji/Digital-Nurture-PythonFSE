@@ -1,6 +1,8 @@
 # 🗄️ Database Integration — Week 1
 
-> **Name:** **Balaji A**
+> ### 👨‍💻 **Developed & Submitted By**
+> # **BALAJI A**
+> ### 📧 **333yashvanthbalaji@gmail.com**
 
 ---
 
@@ -65,3 +67,17 @@ Through these exercises, I learned:
 
 This section represents my practical learning and answer solutions for **Database Integration** in **Week 1**.  
 It helped me understand how databases work from basic SQL to advanced ORM and migration concepts.
+
+---
+
+# 👨‍💻 **Author**
+
+## **All solutions, implementations, documentation, and outputs in this repository were completed by**
+
+# **BALAJI A**
+
+### 📧 **333yashvanthbalaji@gmail.com**
+
+---
+
+⭐ **Thank you for visiting this repository!**
