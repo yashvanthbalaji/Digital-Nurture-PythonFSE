@@ -1,4 +1,4 @@
-<img width="1497" height="1050" alt="Screenshot 2026-07-02 110901" src="https://github.com/user-attachments/assets/332aad4b-857d-4db6-99b1-092649718c03" /># HANDS-ON 4: Query Optimisation — Indexes, EXPLAIN & the N+1 Problem
+# HANDS-ON 4: Query Optimisation — Indexes, EXPLAIN & the N+1 Problem
 
 **Author:** Balaji A
 
