@@ -1,6 +1,8 @@
 # 📚 Week 1 — Deepskilling | Cognizant Digital Nurture 5.0
 
-> **👨‍💻 Name:** **Balaji A**
+> ### 👨‍💻 **Developed & Submitted By**
+> # **BALAJI A**
+> ### 📧 **333yashvanthbalaji@gmail.com**
 
 ---
 
@@ -106,3 +108,17 @@ Throughout **Week 1**, I learned:
 # 🎯 Summary
 
 This week strengthened my understanding of **Python programming, Database Integration, Searching & Sorting Algorithms, and Design Patterns** through practical hands-on implementations as part of the **Cognizant Digital Nurture 5.0 – Deepskilling Program**.
+
+---
+
+# 👨‍💻 **Author**
+
+## **All solutions, implementations, documentation, and outputs in this repository were completed by**
+
+# **BALAJI A**
+
+### 📧 **333yashvanthbalaji@gmail.com**
+
+---
+
+⭐ **Thank you for visiting this repository!**
