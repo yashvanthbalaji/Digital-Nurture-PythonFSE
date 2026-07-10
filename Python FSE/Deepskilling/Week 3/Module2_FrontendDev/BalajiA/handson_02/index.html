@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- charset must be the very first line inside head -->
+  <meta charset="UTF-8">
+  <!-- makes the page usable on phones -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portal - Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="site-name">Student Portal</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Grades</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- main holds the primary content, only one per page -->
+  <main>
+
+    <section id="hero">
+      <h1>Welcome to the Student Portal</h1>
+      <p>Track your courses, grades, and notifications all in one place.</p>
+      <button>Explore Courses</button>
+    </section>
+
+    <section id="courses">
+      <h2>Enrolled Courses</h2>
+
+      <!-- article is used because each course card makes sense on its own -->
+      <article class="course-card">
+        <h3>Web Development Basics</h3>
+        <p>Learn HTML, CSS, and JavaScript from the ground up.</p>
+        <span>4 credits</span>
+      </article>
+
+      <article class="course-card">
+        <h3>Data Structures</h3>
+        <p>Understand arrays, linked lists, stacks, and queues.</p>
+        <span>3 credits</span>
+      </article>
+
+      <article class="course-card">
+        <h3>Database Systems</h3>
+        <p>Introduction to relational databases and SQL.</p>
+        <span>3 credits</span>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Student Portal. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

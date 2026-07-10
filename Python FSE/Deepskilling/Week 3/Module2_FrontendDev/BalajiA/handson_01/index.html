@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portal - Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="site-name">Student Portal</div>
+    <!-- shown only on small screens, hidden once real nav appears -->
+    <span class="hamburger">☰ Menu</span>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Grades</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h1>Welcome to the Student Portal</h1>
+      <p>Track your courses, grades, and notifications all in one place.</p>
+      <button>Explore Courses</button>
+    </section>
+
+    <!-- new: 3 quick stats laid out with flexbox -->
+    <section id="stats">
+      <div class="stat-item">
+        <span class="stat-number">3</span>
+        <span class="stat-label">Courses Enrolled</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">3.8</span>
+        <span class="stat-label">GPA</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">6</span>
+        <span class="stat-label">Semester</span>
+      </div>
+    </section>
+
+    <section id="courses">
+      <h2>Enrolled Courses</h2>
+
+      <!-- new: this wrapper is what display:grid will target -->
+      <div class="course-grid">
+        <article class="course-card">
+          <h3>Web Development Basics</h3>
+          <p>Learn HTML, CSS, and JavaScript from the ground up.</p>
+          <span>4 credits</span>
+        </article>
+
+        <article class="course-card">
+          <h3>Data Structures</h3>
+          <p>Understand arrays, linked lists, stacks, and queues.</p>
+          <span>3 credits</span>
+        </article>
+
+        <article class="course-card">
+          <h3>Database Systems</h3>
+          <p>Introduction to relational databases and SQL.</p>
+          <span>3 credits</span>
+        </article>
+
+        <article class="course-card">
+          <h3>UI/UX Design Principles</h3>
+          <p>Learn the fundamentals of user-centered design.</p>
+          <span>2 credits</span>
+        </article>
+
+        <article class="course-card">
+          <h3>Cloud Computing Basics</h3>
+          <p>Get introduced to AWS, Azure, and cloud fundamentals.</p>
+          <span>3 credits</span>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Student Portal. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
