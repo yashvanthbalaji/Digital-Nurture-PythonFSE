@@ -31,39 +31,30 @@ function CoursesPage() {
   };
 
   if (loading) {
-    return 
-Loading courses...
-
-;
+    return <p>Loading courses...</p>;
   }
 
   if (error) {
-    return Could not load courses: {error}
-
-;
+    return <p>Could not load courses: {error}</p>;
   }
 
   return (
-    
+    <div className="page">
+      <h1>Enrolled Courses</h1>
 
-      
-Enrolled Courses
-
-
-      
-{searchTerm}
- setSearchTerm(event.target.value)}
+      <input
+        type="text"
+        placeholder="Search courses..."
+        value={searchTerm}
+        onChange={(event) => setSearchTerm(event.target.value)}
       />
 
-      
-
+      <div className="course-grid">
         {filteredCourses.map(course => (
-          
+          <CourseCard key={course.id} {...course} onEnroll={handleEnroll} />
         ))}
-      
-
-    
-
+      </div>
+    </div>
   );
 }
 

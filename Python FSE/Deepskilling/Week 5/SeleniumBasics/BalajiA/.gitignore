@@ -1,0 +1,12 @@
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Screenshots generated while testing
+*.png
+
+# VS Code settings folder
+.vscode/

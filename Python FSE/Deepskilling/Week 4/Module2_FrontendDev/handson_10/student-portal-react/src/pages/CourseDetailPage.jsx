@@ -21,39 +21,17 @@ function CourseDetailPage() {
       });
   }, [courseId]);
 
-  if (loading) return 
-Loading...
-
-;
-  if (error) return 
-Could not load course: {error}
-
-;
-  if (!course) return 
-Course not found.
-
-;
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Could not load course: {error}</p>;
+  if (!course) return <p>Course not found.</p>;
 
   return (
-    
-
-      
-{course.name}
-
-      
-Course code: {course.code}
-
-
-      
-Credits: {course.credits}
-
-
-      
-Grade: {course.grade}
-
-
-    
-
+    <div className="page">
+      <h1>{course.name}</h1>
+      <p>Course code: {course.code}</p>
+      <p>Credits: {course.credits}</p>
+      <p>Grade: {course.grade}</p>
+    </div>
   );
 }
 
