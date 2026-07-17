@@ -1,0 +1,96 @@
+:root {
+  --color-dark: #2c3e50;
+  --color-bg: #f4f4f4;
+  --color-text: #222;
+  --color-muted: #595959; /* was #777, darkened for WCAG AA contrast */
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 16px 20px;
+  background-color: var(--color-dark);
+  color: #fff;
+}
+
+header .site-name { font-size: clamp(1.5rem, 3vw, 2.5rem); font-weight: bold; }
+
+#menu-toggle {
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+nav { display: none; width: 100%; }
+nav.open { display: block; }
+
+nav ul { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+nav ul li a { color: #fff; text-decoration: none; }
+nav ul li a:hover, nav ul li a[aria-current="page"] { text-decoration: underline; }
+
+/* visible focus ring -- never remove this without providing a replacement */
+a:focus, button:focus, input:focus, .course-card:focus {
+  outline: 3px solid #ffbf47;
+  outline-offset: 2px;
+}
+
+#hero { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 20px; min-height: 40vh; }
+#hero h1 { font-size: 28px; margin-bottom: 12px; }
+#hero p { font-size: 16px; margin-bottom: 24px; color: #333; }
+#hero button { padding: 12px 24px; border: 2px solid var(--color-dark); background-color: transparent; color: var(--color-dark); border-radius: 6px; cursor: pointer; font-size: 16px; }
+#hero button:hover { background-color: var(--color-dark); color: #fff; }
+
+#stats { display: flex; flex-wrap: wrap; gap: 16px; padding: 20px; background-color: #fff; text-align: center; }
+.stat-item { flex: 1; min-width: 100px; }
+.stat-number { display: block; font-size: 24px; font-weight: bold; color: var(--color-dark); }
+.stat-label { display: block; font-size: 13px; color: var(--color-muted); }
+
+#courses { padding: 30px 20px; }
+#courses h2 { margin-bottom: 12px; }
+#courses label { display: block; margin-bottom: 6px; font-size: 14px; }
+
+#results-count { font-size: 14px; color: var(--color-muted); margin: 12px 0; }
+
+.course-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+.course-card { padding: 16px; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); min-height: 140px; }
+.course-card h3 { margin-bottom: 8px; }
+.course-card span { display: inline-block; margin-top: 8px; font-size: 14px; color: var(--color-muted); }
+
+footer { text-align: center; padding: 20px; background-color: var(--color-dark); color: #fff; }
+
+@media (min-width: 768px) {
+  #menu-toggle { display: none; }
+  nav { display: block; width: auto; }
+  nav ul { flex-direction: row; }
+}
+
+@media (min-width: 1024px) {
+  #hero { padding: 80px 20px; }
+}
+
+/*
+  CANIUSE.COM NOTES (checked on caniuse.com, 17 July 2026):
+  - CSS Grid Layout (level 1): Baseline — Widely available across major
+    browsers. 95.36% global usage support (95.14% unprefixed + 0.22%
+    partial). Supported in Chrome, Edge, Safari, Firefox, Opera, and all
+    major mobile browsers since around October 2017. Only very old
+    browsers (IE, pre-2017 Chrome/Firefox) lack support — no fallback
+    needed for this project's target audience.
+  - CSS custom properties (var(--x)): NOT supported in old IE11, which is
+    exactly why the css-vars-ponyfill script is included in index.html
+    as a fallback.
+*/
