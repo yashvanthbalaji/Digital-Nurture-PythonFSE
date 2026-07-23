@@ -50,10 +50,9 @@ You test with full knowledge of the internal code. You can see the actual logic,
 
 | Test Case ID | Description | Preconditions | Test Steps | Expected Result | Actual Result | Pass/Fail |
 |---|---|---|---|---|---|---|
-| TC_001 | Create a course with valid data | API server is running, database is connected | 1. Send POST request to /api/courses/ with valid course name and details 2. Check the response | Response returns status 201 Created, and the new course appears in the database | | |
-| TC_002 | Create a course with an empty course name | API server is running | 1. Send POST request to /api/courses/ with course name left blank 2. Check the response | Response returns status 400 Bad Request with a proper error message, no course is created | | |
-| TC_003 | Create a course with a duplicate course name | A course named "Data Structures" already exists in the database | 1. Send POST request to /api/courses/ with the same course name "Data Structures" 2. Check the response | Response returns status 409 Conflict (or similar), duplicate course is not created | | |
-
+| TC_001 | Create a course with valid data | API server is running, database is connected | 1. Send POST request to /api/courses/ with valid course name and details 2. Check the response | Response returns status 201 Created, and the new course appears in the database | *To be filled after test execution* | *To be filled after test execution* |
+| TC_002 | Create a course with an empty course name | API server is running | 1. Send POST request to /api/courses/ with course name left blank 2. Check the response | Response returns status 400 Bad Request with a proper error message, no course is created | *To be filled after test execution* | *To be filled after test execution* |
+| TC_003 | Create a course with a duplicate course name | A course named "Data Structures" already exists in the database | 1. Send POST request to /api/courses/ with the same course name "Data Structures" 2. Check the response | Response returns status 409 Conflict (or similar), duplicate course is not created | *To be filled after test execution* | *To be filled after test execution* |
 ---
 
 ## Task 2: Defect Lifecycle & Severity Classification
