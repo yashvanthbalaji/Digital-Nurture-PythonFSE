@@ -127,3 +127,10 @@ They usually go together, but not always. Here's a real example:
 Imagine there's a typo on the company CEO's personal dashboard — it says "Wlecome back" instead of "Welcome back". This is a spelling mistake, nothing is broken, the app works perfectly fine. So **Severity is Low**. But because the CEO sees this every single day and it looks embarrassing, the team decides to fix it right away before anything else. So **Priority is High**.
 
 That's the whole point — Severity is about technical impact, Priority is about business/urgency. A bug can be small and unimportant technically, but still jump to the front of the line because of who sees it or when it matters.
+
+<p align="center">
+  <strong>All the works, solutions, code, and documentation in this repository were completed by</strong><br>
+  <strong>BALAJI A</strong><br>
+  <strong>Email: 333yashvanthbalaji@gmail.com</strong><br>
+  <strong>Superset ID: 7995004</strong>
+</p>

@@ -170,3 +170,11 @@ CourseManagement_TestSuite/
 - `utils/` — small reusable helper functions not tied to any one page
 - `keywords/` — the translation layer that lets non-technical testers write plain-word test steps
 - `tests/` — the actual test files that call everything above together
+
+
+<p align="center">
+  <strong>All the works, solutions, code, and documentation in this repository were completed by</strong><br>
+  <strong>BALAJI A</strong><br>
+  <strong>Email: 333yashvanthbalaji@gmail.com</strong><br>
+  <strong>Superset ID: 7995004</strong>
+</p>

@@ -142,3 +142,9 @@ Then the system should reject the request
 And I should see an error message indicating the course name is required
 And no course should be created in the database
 ```
+<p align="center">
+  <strong>All the works, solutions, code, and documentation in this repository were completed by</strong><br>
+  <strong>BALAJI A</strong><br>
+  <strong>Email: 333yashvanthbalaji@gmail.com</strong><br>
+  <strong>Superset ID: 7995004</strong>
+</p>
