@@ -58,6 +58,7 @@ No. The breakeven point already happens at run 8, which is before run 10 — so 
 **Final Answer: The automation pays for itself after 8 runs.**
 
 From run 10 onward, each run does cost a bit more (20% maintenance overhead = 6 minutes), so the savings per run drop from 30 minutes to 24 minutes. But since we already broke even at run 8, this doesn't delay the payback — it just means the automation becomes slightly less profitable per run afterward, while still saving time on every single run.
+
 ---
 
 ### 20. Flaky Tests
