@@ -1,4 +1,4 @@
-# step38_element_to_be_clickable.py
+# step38
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
