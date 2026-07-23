@@ -8,12 +8,13 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service)
+driver.maximize_window()
 driver.implicitly_wait(10)
 
-driver.get("https://www.lambdatest.com/selenium-playground/bootstrap-alerts")
+driver.get("https://www.testmuai.com/selenium-playground/bootstrap-alert-messages-demo/")
 
-# Click the button that triggers the success alert
-success_button = driver.find_element(By.ID, "success-alert")
+# Locate the button by its VISIBLE TEXT, since there's no id on this site
+success_button = driver.find_element(By.XPATH, "//button[contains(text(),'Normal Success Message')]")
 success_button.click()
 
 # WebDriverWait keeps checking, up to 10 seconds, until the condition
@@ -22,8 +23,8 @@ alert = WebDriverWait(driver, 10).until(
     EC.visibility_of_element_located((By.CSS_SELECTOR, ".alert-success"))
 )
 
-assert "successfully" in alert.text
 print("Alert text was:", alert.text)
-print("Test passed: alert appeared and contains 'successfully'")
+assert "success" in alert.text.lower()
+print("Test passed: alert appeared and mentions success")
 
 driver.quit()
