@@ -41,30 +41,23 @@ ROI (Return on Investment) for automation means comparing the time/effort spent 
 **Given numbers:**
 - Time to automate the test (one-time setup): 4 hours = 240 minutes
 - Time to run the same test manually, each time: 30 minutes
+- After the 10th run, each run has a 20% maintenance overhead added
 
-**Step 1: Basic breakeven point (before maintenance is considered)**
+**Step 1: Basic breakeven point**
 
-Every time the automated test runs, we save roughly 30 minutes compared to doing it manually (assuming the automated run itself takes almost no time).
+Each automated run saves roughly 30 minutes compared to doing it manually.
 
-```
 Breakeven runs = Automation setup time / Manual run time
 Breakeven runs = 240 minutes / 30 minutes
 Breakeven runs = 8 runs
-```
 
-So after just **8 runs**, the automated test has already saved as much time as it took to build it.
+**Step 2: Does the 20% overhead (starting at run 10) change this answer?**
 
-**Step 2: Accounting for 20% maintenance overhead after the 10th run**
+No. The breakeven point already happens at run 8, which is before run 10 — so the maintenance overhead hasn't started yet by the time the automation has already paid for itself.
 
-After the 10th run, let's assume each further run needs a bit of maintenance work (fixing broken locators, updating test data, etc.) equal to 20% of the manual run time:
+**Final Answer: The automation pays for itself after 8 runs.**
 
-```
-Maintenance overhead per run (after run 10) = 20% of 30 minutes = 6 minutes
-Net time saved per run after run 10 = 30 minutes - 6 minutes = 24 minutes
-```
-
-**Conclusion:** Since the automation already pays for itself by run 8 (before the extra maintenance cost even kicks in at run 10), it's still a solid investment overall. From run 11 onward, we're saving a bit less per run (24 minutes instead of 30), but we're still saving time on every single run, not losing money on the investment.
-
+From run 10 onward, each run does cost a bit more (20% maintenance overhead = 6 minutes), so the savings per run drop from 30 minutes to 24 minutes. But since we already broke even at run 8, this doesn't delay the payback — it just means the automation becomes slightly less profitable per run afterward, while still saving time on every single run.
 ---
 
 ### 20. Flaky Tests
